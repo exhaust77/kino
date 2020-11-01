@@ -4,7 +4,7 @@
 function films(){
 
 const filmName = document.getElementById('input-film').value;
-const request = 'http://api.tvmaze.com/search/shows?q=';
+const request = 'https://api.tvmaze.com/search/shows?q=';
 const requestUrl = request + filmName;
 console.log(requestUrl)
 const searchResult = document.getElementById('search-result');
